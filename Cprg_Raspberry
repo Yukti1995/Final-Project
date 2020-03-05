@@ -1,0 +1,21 @@
+/*Create a source file*/
+
+sudo nano hello-world.c
+
+/*Source code*/
+
+#include <stdio.h>
+
+int main()
+{
+   printf("Hello, World! \n");
+   return 0;
+}
+
+/*Compile*/
+
+gcc hello-world.c -o myfirstcprogram
+
+chmod +x myfirstcprogram
+
+./myfirstcprogram
