@@ -1,0 +1,5 @@
+sudo bluetoothctl ----default password is raspberry
+agent on
+default-agent
+scan on
+pair [device Bluetooth address]
